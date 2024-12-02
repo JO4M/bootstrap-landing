@@ -1,0 +1,48 @@
+header{
+    background-color: rgb(139, 141, 145) ;
+}
+.display-4{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgba(242, 117, 117, 0.7); /* Blanc avec 50% d'opacité */
+    padding: 10px; /* Ajouter de l'espace autour du texte */
+}
+.lead {
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: rgba(242, 117, 117, 0.7);
+}
+#accueil{
+    background-image:url(/Librairie/istockphoto-594484448-612x612.jpg) ;
+    object-fit: cover ;
+    
+}
+#articles{
+    background-image: url(/Librairie/istockphoto-594484448-612x612.jpg);
+    background-size:contain ;
+    object-fit: cover;
+}
+.card{
+    background-color:rgb(102, 212, 122);
+    border-radius: 10px;
+    border:1px solid black;
+}
+container-card{
+    border: 1px solid black;
+}
+
+  /* Effet hover sur l'image pour la faire grossir */
+.zoom-image {
+    transition: transform 0.3s ease-in-out; /* Animation fluide */  
+}
+
+.zoom-image:hover {
+    transform: scale(1.1); /* Agrandir l'image de 10% */
+}
+
+h2{
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: rgba(242, 117, 117, 0.7);
+}
+
